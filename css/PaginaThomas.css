@@ -1,0 +1,38 @@
+/* ===== Fondo de la página ===== */
+body {
+  background-color: #f0f0f5;
+}
+
+/* ===== Título e introducción ===== */
+.titulo-pagina {
+  font-size: clamp(1.6rem, 5vw, 3rem);
+  color: #1a1a2e;
+}
+
+.texto-intro {
+  max-width: 600px;
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+}
+
+/* ===== Podio ===== */
+.podio__img {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  max-height: 60vh;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+/* ===== Tarjetas de cada juego ===== */
+.top-puesto .card {
+  background-color: #ffffff;
+  border-left: 5px solid #e94560;
+}
+
+/* El puesto 1 conserva su borde dorado de Bootstrap en el resto de lados;
+   si prefieres el mismo rosado en las 3, quita la clase border-warning del HTML */
+.top-puesto .card-title {
+  color: #1a1a2e;
+}
