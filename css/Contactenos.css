@@ -1,0 +1,120 @@
+
+body.vjb-contacto-page {
+    background-color: #0d1322;
+    color: #e2e8f0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.vjb-brand {
+    color: #f8fafc ;
+    letter-spacing: 0.5px;
+}
+
+.vjb-neon-accent {
+    color: #10b981;
+    text-shadow: 0 0 8px rgba(16, 185, 129, 0.8);
+}
+
+.vjb-title {
+    color: #ffffff ;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+}
+
+.vjb-subtitle {
+    color: #94a3b8 ;
+}
+
+
+.vjb-card-form, 
+.vjb-card-info {
+    background-color: #0f172a;
+    border: 1px solid #1e293b;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 15px rgba(16, 185, 129, 0.05) !important;
+}
+
+.vjb-card-form .form-label {
+    color: #e2e8f0;
+}
+
+
+.vjb-input-gamer {
+    background-color: #05080e;
+    border: 1px solid #334155;
+    color: #f3f4f6;
+    border-radius: 8px;
+    padding: 10px 14px;
+    transition: all 0.3s ease;
+}
+
+.vjb-input-gamer::placeholder {
+    color: #64748b;
+}
+
+.vjb-input-gamer:focus {
+    background-color: #05080e ;
+    border-color: #10b981;
+    color: #fff;
+    box-shadow: 0 0 12px rgba(16, 185, 129, 0.5);
+}
+
+.vjb-btn-submit {
+    background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.95rem;
+}
+
+.vjb-btn-submit:hover {
+    background: linear-gradient(135deg, #047857 0%, #059669 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.8), 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+
+.vjb-info-title {
+    color: #f8fafc;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.vjb-info-desc {
+    color: #94a3b8;
+}
+
+.vjb-info-label {
+    color: #7a1bd3;
+}
+
+.vjb-info-text {
+    color: #cbd5e1;
+}
+
+.vjb-card-form {
+    background-color: #0f172a;
+    border: 1px solid #10b981; 
+    border-radius: 14px;
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.25), 0 10px 30px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
+}
+
+.vjb-card-form:hover {
+    box-shadow: 0 0 25px rgba(16, 185, 129, 0.5), 0 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.vjb-card-info {
+    background-color: #0f172a;
+    border: 1px solid #7408d8; 
+    border-radius: 14px;
+    box-shadow: 0 0 15px rgba(89, 16, 185, 0.25), 0 10px 30px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
+}
+
+.vjb-card-info:hover {
+    box-shadow: 0 0 25px rgba(117, 16, 185, 0.5), 0 10px 30px rgba(0, 0, 0, 0.8);
+}
