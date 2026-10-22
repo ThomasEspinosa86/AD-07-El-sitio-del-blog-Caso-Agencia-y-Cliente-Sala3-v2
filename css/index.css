@@ -1,0 +1,37 @@
+
+:root {
+    --fondo: #101c24;
+    --azul-petroleo: #173b4a;
+    --texto: #f0f7f6;
+    --verde: #38c9a5;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #101c24, #162b38);
+    color: var(--texto);
+}
+
+h1 {
+    font-size: 35px;
+    color: var(--verde);
+}
+
+
+
+
+.imagenes img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--azul-petroleo);
+}
+
+h2, h3, h4, h5, h6 {
+    color: var(--verde);
+}
+
+p {
+    font-size: 16px;
+    color: var(--texto);
+}
