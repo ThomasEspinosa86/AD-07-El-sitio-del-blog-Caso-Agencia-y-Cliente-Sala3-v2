@@ -1,0 +1,23 @@
+/* ===== Base ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* empuja el footer al final de la página */
+}
+
+/* ===== Navbar: solo lo que Bootstrap no trae ===== */
+.navbar {
+  position: sticky;   /* no se pierde al hacer scroll */
+  top: 0;
+  z-index: 1030;      /* queda por encima del contenido */
+}
