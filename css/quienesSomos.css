@@ -1,0 +1,27 @@
+:root {
+    --fondo: #0d0d1a;
+    --fondo-claro: #1a1a2e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle at top, var(--fondo-claro), var(--fondo) 70%);
+    color: var(--texto);
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
