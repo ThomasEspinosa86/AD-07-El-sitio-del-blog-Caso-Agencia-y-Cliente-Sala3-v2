@@ -1,0 +1,133 @@
+
+:root {
+    --color-fondo: #0b0f19;
+    --color-tarjeta: #151c2c;
+    --color-principal: #8b5cf6;
+    --color-secundario: #00e5ff;
+    --color-texto: #f5f7fa;
+    --color-texto-secundario: #aab3c5;
+}
+
+/* CONFIGURACIÓN GENERAL */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* MENÚ BOOTSTRAP */
+.navbar {
+    background-color: var(--color-tarjeta) !important;
+    border-bottom: 2px solid var(--color-principal);
+}
+
+.navbar-brand {
+    color: var(--color-secundario) !important;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: var(--color-texto);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: var(--color-secundario) !important;
+}
+
+/* ENCABEZADO DE NOVEDADES */
+#inicio,
+main section {
+    color: var(--color-texto);
+}
+
+h1 span {
+    color: var(--color-secundario);
+}
+
+.lead {
+    color: var(--color-texto-secundario);
+}
+
+/* TARJETAS DE NOTICIAS */
+.card {
+    height: 100%;
+    background-color: var(--color-tarjeta);
+    color: var(--color-texto);
+    border: 1px solid #303b52;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(139, 92, 246, 0.2) !important;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: var(--color-secundario);
+    font-weight: bold;
+}
+
+.card-text {
+    color: var(--color-texto-secundario);
+}
+
+/* CATEGORÍAS */
+.badge.text-bg-primary {
+    background-color: var(--color-principal) !important;
+}
+
+.badge.text-bg-success {
+    background-color: #087f8c !important;
+}
+
+.badge.text-bg-warning {
+    background-color: #b58a24 !important;
+    color: #ffffff !important;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background-color: var(--color-tarjeta) !important;
+    border-top: 2px solid var(--color-principal);
+}
+
+footer p,
+footer li {
+    color: var(--color-texto-secundario);
+}
+
+/* ACCESIBILIDAD */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+}
